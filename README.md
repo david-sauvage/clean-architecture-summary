@@ -102,3 +102,7 @@ About decoupling:
 
 The single responsibility principle will help you draw boundaries between components.
 Some of those components are core business, others are plugins that are necessary but not directly related to core business.
+
+**18) Boundary anatomy**
+
+Boundaries in a system are often a mix of local chatty ones and others that are concerned with latency
