@@ -106,3 +106,9 @@ Some of those components are core business, others are plugins that are necessar
 **18) Boundary anatomy**
 
 Boundaries in a system are often a mix of local chatty ones and others that are concerned with latency
+
+**19) Policy and level**
+
+A software is a set of policy. The level of a policy is the distance from the inputs and outputs. The farthest it is, the higher its level is.
+High level policy tend to change less often than low level ones. Separate those policies and make the dependencies point toward the high level ones reduce the impact of change.
+
