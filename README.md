@@ -116,3 +116,12 @@ High level policy tend to change less often than low level ones. Separate those 
 
 Business rules are the core functionality of the system, they save or make money. They should be the most independent and reusable in the system
 
+**21) Screaming architecture**
+
+Your architecture should show what the system is about, not the framework it's using. The frameworks are only details.
+
+**22) The clean architecture**
+
+Framework -> Inteface adapters -> Application business rules -> Enterprise Business rules.
+As seen previously, the entities are the inner circle, then the uses cases then the controllers then the UI, Database etc...
+Only data will cross boundaries. And to do so, you should use simple data transfer objects. Don't cheat by using database rows or something like this that would violates the dependency rule.
