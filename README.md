@@ -125,3 +125,11 @@ Your architecture should show what the system is about, not the framework it's u
 Framework -> Inteface adapters -> Application business rules -> Enterprise Business rules.
 As seen previously, the entities are the inner circle, then the uses cases then the controllers then the UI, Database etc...
 Only data will cross boundaries. And to do so, you should use simple data transfer objects. Don't cheat by using database rows or something like this that would violates the dependency rule.
+
+**23) Presenters and humble objects**
+
+Humble objects are often found at architectural boundaries. Those boundaries will involve a data structure and will divide something hard to test to something easy to test.
+This pattern increase testability.
+Example of humble projects : The view in MVP pattern or ORMs
+
+
