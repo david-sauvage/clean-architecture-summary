@@ -132,4 +132,14 @@ Humble objects are often found at architectural boundaries. Those boundaries wil
 This pattern increase testability.
 Example of humble projects : The view in MVP pattern or ORMs
 
+**24) Partial boundaries**
+
+Sometimes a boundary is expansive and we are not sure it is necessary. The architect may want to implement a partial boundaries in order to keep the option open.
+You can either implement it without separating both part into two different components, creating one dimensional boundaries or use the facade pattern.
+Keep in mind that over time, those partial boundaries may be degraded.
+
+**25) Layers and boundaries**
+
+Boundaries exists everywhere. Architects must recognize when they are needed. Despite the YAGNI principle that says we should not anticipate since the cost of adding a boundary is risky and costly. Nonetheless, we do not have to decide at the start of the project, we have to watch how the program evolve and look for friction and finally weight the cost of implementing the boundary and the cost of ignoring it.
+
 
