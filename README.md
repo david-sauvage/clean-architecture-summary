@@ -147,5 +147,9 @@ Boundaries exists everywhere. Architects must recognize when they are needed. De
 The main component is the lowest level policy. It's the entry point, it creates everything then hand control over the high level policies.
 See it as a plugin that sets initial conditions, doing so will make the problem of configuration much easier.
 
+**27) Services: Great and small**
 
+Services allows scalability and develop-ability but are not architecturally significant. The architecture is drawn by the boundaries of the system. 
+Decoupling, independent development and deployment are fallacies when facing cross cutting concerns.
+A service can be surrounded by architectural boundary or composed of several components separated by such boundaries.
 
