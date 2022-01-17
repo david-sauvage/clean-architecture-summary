@@ -142,4 +142,10 @@ Keep in mind that over time, those partial boundaries may be degraded.
 
 Boundaries exists everywhere. Architects must recognize when they are needed. Despite the YAGNI principle that says we should not anticipate since the cost of adding a boundary is risky and costly. Nonetheless, we do not have to decide at the start of the project, we have to watch how the program evolve and look for friction and finally weight the cost of implementing the boundary and the cost of ignoring it.
 
+**26) The main component**
+
+The main component is the lowest level policy. It's the entry point, it creates everything then hand control over the high level policies.
+See it as a plugin that sets initial conditions, doing so will make the problem of configuration much easier.
+
+
 
