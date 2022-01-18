@@ -158,3 +158,7 @@ A service can be surrounded by architectural boundary or composed of several com
 Tests are part of the system. You have to design for testability or you will end up with a fragile and difficult to maintain test suite.
 For example, it's a bad idea to test your business rules through UI. When you'll change your UI, all the test will fail, that makes your system hard to change.
 
+**29) Clean embedded architecture**
+
+Software should not be dependent on hardware or OS. Hardware and OS will evolve and if your software is tied to it, it will evolve poorly.
+An abstraction layer is always needed when communicating with either one of them. That makes your software easier to maintain and to port to other systems.
