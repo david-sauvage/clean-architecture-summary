@@ -153,3 +153,8 @@ Services allows scalability and develop-ability but are not architecturally sign
 Decoupling, independent development and deployment are fallacies when facing cross cutting concerns.
 A service can be surrounded by architectural boundary or composed of several components separated by such boundaries.
 
+**28) The test boundary**
+
+Tests are part of the system. You have to design for testability or you will end up with a fragile and difficult to maintain test suite.
+For example, it's a bad idea to test your business rules through UI. When you'll change your UI, all the test will fail, that makes your system hard to change.
+
