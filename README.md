@@ -162,3 +162,7 @@ For example, it's a bad idea to test your business rules through UI. When you'll
 
 Software should not be dependent on hardware or OS. Hardware and OS will evolve and if your software is tied to it, it will evolve poorly.
 An abstraction layer is always needed when communicating with either one of them. That makes your software easier to maintain and to port to other systems.
+
+**30) The database is a detail**
+
+The data model is architecturally significant while the system that allows us to access it is not. Databases are only a detail
