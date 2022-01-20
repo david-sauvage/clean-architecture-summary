@@ -165,14 +165,19 @@ An abstraction layer is always needed when communicating with either one of them
 
 **30) The database is a detail**
 
-The data model is architecturally significant while the system that allows us to access it is not. Databases are only a detail
+The data model is architecturally significant while the system that allows us to access it is not. Databases are only a detail.
 
 **31) The web is a detail**
 
 The GUI is a detail and the web is a GUI, therefore the web is a detail. As an architect, we need to keep it behind boundaries.
-The interaction between a browser and the app is chatty and it needs to be abstracted to protect the business logic
+The interaction between a browser and the app is chatty and it needs to be abstracted to protect the business logic.
 
 **32) Frameworks are details**
 
 Using a framework is an asymmetrical marriage. You are linked to it without the authors of this framework being linked to you.
-Try not to tie the core of your software with the frameworks you use
+Try not to tie the core of your software with the frameworks you use.
+
+**33) Case study**
+
+The case study divides the components in two ways: by actors respecting the principle of single responsibility and by the Dependency rule. 
+It separates components that change for different reasons and at different speeds. Thus structured, the project can be deployed in the most appropriate way.
