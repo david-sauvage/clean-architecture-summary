@@ -167,7 +167,12 @@ An abstraction layer is always needed when communicating with either one of them
 
 The data model is architecturally significant while the system that allows us to access it is not. Databases are only a detail
 
-**21) The web is a detail**
+**31) The web is a detail**
 
 The GUI is a detail and the web is a GUI, therefore the web is a detail. As an architect, we need to keep it behind boundaries.
 The interaction between a browser and the app is chatty and it needs to be abstracted to protect the business logic
+
+**32) Frameworks are details**
+
+Using a framework is an asymmetrical marriage. You are linked to it without the authors of this framework being linked to you.
+Try not to tie the core of your software with the frameworks you use
